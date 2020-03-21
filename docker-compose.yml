@@ -12,5 +12,5 @@ services:
     security_opt:
       - seccomp:unconfined
     volumes:
-      - ./scripts:/app
+      - .:/app
     command: /bin/bash
