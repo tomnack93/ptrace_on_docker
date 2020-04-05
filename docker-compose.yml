@@ -13,4 +13,5 @@ services:
       - seccomp:unconfined
     volumes:
       - .:/app
-    command: /bin/bash
+    command: tail -f /dev/null
+

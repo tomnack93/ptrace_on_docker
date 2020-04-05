@@ -11,4 +11,10 @@ RUN yes | unminimize && \
     reptyr \
     tmux
 
+RUN apt-get install -y \
+    net-tools \
+    bridge-utils \
+    arping \
+    ethtool
+
 WORKDIR /app
