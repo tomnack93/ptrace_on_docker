@@ -5,6 +5,7 @@ RUN yes | unminimize && \
     apt-get install -y \
     gdb \
     strace \
+    nasm \
     make \
     gcc \
     vim \
